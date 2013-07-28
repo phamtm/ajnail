@@ -1,0 +1,91 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+/* =========== DEBUG ===================*/
+.odd {
+	background-color: gray;
+}
+.zero {
+	background-color: #ccc;
+}
+
+/* =========== MODIFY DEFAULT GUMBY CSS ===================*/
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; padding-left:10px; }
+
+/* =========== HOME ===================*/
+.top-page {
+	background: url('../img/witewall.png');
+}
+.login-top {
+	padding: 10px 0px 0px 0px;
+}
+.login-top input, .login-top a {
+	display:block;
+	line-height: 14px;
+}
+.border-u {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	overflow:auto;
+}
+.border-a {
+	border:1px solid #ccc;
+}
+.border-img img {
+	border:1px solid #ccc;
+}
+
+.fit-four {
+	width:23% !important;
+}
+
+.border-r {
+	border-radius: 3px;
+} 
+.sidebar {
+	margin-bottom:10px;
+}
+.section-header {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	box-shadow: 0px 1px 1px #bbb;
+	padding: 7px 10px;
+	font-size: 16px;
+	font-weight:600;
+	color: #42a35a;
+}
+.sidebar-content {
+	padding:10px 0px 0px 20px;
+}
+.sidebar-content ul {
+	font-size: 14px;
+	line-height: 18px;
+}
+.sidebar-content ul li a {
+	color: #333;
+	text-decoration: none;
+	outline: 0;
+}
+.sidebar-content ul li a:hover{
+	text-decoration: underline;
+}
+.product-listing a {
+	text-decoration: underline;
+}
+.product-listing img {
+	border:1px solid #bbb;
+}
+.sitemap {
+	line-height: 18px;
+}
+.footer {
+	padding:5px 5px;
+}
+.footer p {
+	font-size:11px;
+	line-height: 14px;
+}
+
+/* =========== PRODUCT PAGE ===================*/
